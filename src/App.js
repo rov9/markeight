@@ -10,13 +10,14 @@ import "./styles.css";
  * O(1) and why we are doing this.
  */
 const emojiDictionary = {
-  "😊": "Smiling",
-  "😳": "disbelief",
-  "😔": "sad",
-  "🥡": "takeout box",
-  "❤️": "love",
-  "😑":
-    "annoyance" /** add some more to show how the app now expands when there's new data */
+  "🇧🇳": "Brunei",
+  "🇦🇫": "Afghanistan",
+  "🇮🇱": "Israel",
+  "🇮🇳": "India",
+  "🇳🇴": "Norway",
+  "🇳🇵":
+    "Nepal" ,
+  "🇻🇦":"Vatican City"
 };
 
 /**
