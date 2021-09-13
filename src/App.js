@@ -10,13 +10,13 @@ import "./styles.css";
  * O(1) and why we are doing this.
  */
 const emojiDictionary = {
-  "🇧🇳": "Brunei",
-  "🇦🇫": "Afghanistan",
-  "🇮🇱": "Israel",
-  "🇮🇳": "India",
-  "🇳🇴": "Norway",
-  "🇳🇵": "Nepal" ,
-  "🇻🇦": "Vatican City"
+  "🥠": "Fortune Cookie",
+  "🍯🇫": "Honey Pot",
+  "🧊": "Ice",
+  "🍩": "Doughnut",
+  "🥚": "Egg",
+  "🍕": "Pizza" ,
+  "🍔": "Hamburger"
 };
 
 /**
