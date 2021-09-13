@@ -15,9 +15,8 @@ const emojiDictionary = {
   "🇮🇱": "Israel",
   "🇮🇳": "India",
   "🇳🇴": "Norway",
-  "🇳🇵":
-    "Nepal" ,
-  "🇻🇦":"Vatican City"
+  "🇳🇵": "Nepal" ,
+  "🇻🇦": "Vatican City"
 };
 
 /**
