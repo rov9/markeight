@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
 .App {
-  font-family: sans-serif;
+  font-family: 'Hind Madurai', sans-serif;
   text-align: center;
+}
+body{
+  background-color :#F9A8D4;
 }

@@ -1,17 +1,10 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-/**
- * concept notes: styling in react
- */
 
-/**
- * concept of hashmap (object as hashmap)
- * O(1) and why we are doing this.
- */
 const emojiDictionary = {
   "🥠": "Fortune Cookie",
-  "🍯🇫": "Honey Pot",
+  "🍯": "Honey Pot",
   "🧊": "Ice",
   "🍩": "Doughnut",
   "🥚": "Egg",
@@ -19,14 +12,11 @@ const emojiDictionary = {
   "🍔": "Hamburger"
 };
 
-/**
- * Bonus feature
- * converting an object to array of keys
- */
+
 const emojis = Object.keys(emojiDictionary);
 
 export default function App() {
-  const [emoji, setEmoji] = useState(""); /** concept 2 is useState */
+  const [emoji, setEmoji] = useState(""); 
   const [meaning, setMeaning] = useState("translation will appear here..");
 
   function changeHandler(event) {
@@ -45,7 +35,7 @@ export default function App() {
   }
 
   return (
-    /** concept 3 is onchange */
+    
     <div className="App">
       <h1>inside outttttt</h1>
       <input
@@ -57,14 +47,10 @@ export default function App() {
           minWidth: "80%"
         }}
       />
-      <h2> {emoji} </h2> {/** Concept 1: JSX */}
-      <h3> {meaning} </h3> {/** how much part is re-rendered. */}
+      <h2> {emoji} </h2> {}
+      <h3> {meaning} </h3> {}
       {
-        /** Bonus feature; if time permmits */
-        /**
-         * concepts to cover: mapping a list
-         * click handler on list item
-         */
+        
         emojis.map((emoji) => (
           <span
             onClick={() => emojiClickHandler(emoji)}
