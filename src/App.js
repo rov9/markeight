@@ -45,7 +45,7 @@ export default function App() {
   return (
     
     <div className="App">
-      <h1>Know your Food</h1>
+      <h1>Know the Foods ?</h1>
       <input
         onChange={changeHandler}
         value={emoji}
