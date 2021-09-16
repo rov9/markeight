@@ -9,7 +9,15 @@ const emojiDictionary = {
   "🍩": "Doughnut",
   "🥚": "Egg",
   "🍕": "Pizza" ,
-  "🍔": "Hamburger"
+  "🍔": "Hamburger",
+  "🥦": "Broccoli",
+  "🍏":"Green Apple",
+  "🍡":"Dango",
+  "🌮":"Taco",
+  "🥑":"Avocado",
+  "🥨":"Pretzel",
+  "🍐 ":"Pear"
+
 };
 
 
@@ -37,7 +45,7 @@ export default function App() {
   return (
     
     <div className="App">
-      <h1>inside outttttt</h1>
+      <h1>Know your Food</h1>
       <input
         onChange={changeHandler}
         value={emoji}
